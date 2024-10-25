@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+
+.entrar-button {
+    background-color: blue;
+    height: 30px;
+    width: 70px;
+    border-radius: 62px;
+    justify-content: right;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.entrar-button:hover {
+    background-color: darkblue;
+}
+
+.entrartext {
+    margin-top: 5px;
+}
+
+.linkstop {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.linkstop:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 17%;
+}
+
+img {
+    position: relative;
+    left: 820px;
+}
+
+.googlesearch {
+    position: relative;
+    left: 700px;
+}
+
+.inputgooglesearch {
+    border-radius: 62px;
+    height: 25px;
+    width: 490px;
+}
+
+.buttonundersearchbar1 {
+    position: relative;
+    border-radius: 10px;
+    top: 10px;
+    left: 30px;
+    height: 35px;
+    width: 200px;
+    background-color: rgb(52, 50, 50);
+    color: white;
+}
+
+.buttonundersearchbar2 {
+    position: relative;
+    border-radius: 10px;
+    top: 10px;
+    left: 50px;
+    height: 35px;
+    width: 200px;
+    background-color: rgb(52, 50, 50);
+    color: white;
+}
+
+footer {
+    position: relative;
+    margin-top: 420px;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer a,li {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
