@@ -1,0 +1,134 @@
+// Math.max()
+// Retorna o maior de zero ou mais números fornecidos.
+console.log(Math.max(10, 20)); // retorna 20
+
+// Math.min()
+// Retorna o menor de zero ou mais números fornecidos.
+console.log(Math.min(10, 20)); // retorna 10
+
+// Math.abs()
+// Retorna o valor absoluto de um número.
+console.log(Math.abs(-10)); // retorna 10
+
+// Math.ceil()
+// Retorna o menor número inteiro maior ou igual ao número fornecido.
+console.log(Math.ceil(4.2)); // retorna 5
+
+// Math.floor()
+// Retorna o maior número inteiro menor ou igual ao número fornecido.
+console.log(Math.floor(4.8)); // retorna 4
+
+// Math.round()
+// Retorna o valor de um número arredondado para o inteiro mais próximo.
+console.log(Math.round(4.5)); // retorna 5
+
+// Math.pow()
+// Retorna a base elevada ao expoente.
+console.log(Math.pow(2, 3)); // retorna 8
+
+// Math.sqrt()
+// Retorna a raiz quadrada de um número.
+console.log(Math.sqrt(16)); // retorna 4
+
+// Math.random()
+// Retorna um número pseudo-aleatório entre 0 e 1.
+console.log(Math.random()); // retorna um número entre 0 e 1
+
+// Math.log()
+// Retorna o logaritmo natural (base e) de um número.
+console.log(Math.log(10)); // retorna ~2.302585
+
+// Math.log10()
+// Retorna o logaritmo de base 10 de um número.
+console.log(Math.log10(100)); // retorna 2
+
+// Math.exp()
+// Retorna e elevado à potência de um número.
+console.log(Math.exp(2)); // retorna ~7.389056
+
+// Math.sin()
+// Retorna o seno de um número (em radianos).
+console.log(Math.sin(Math.PI / 2)); // retorna 1
+
+// Math.cos()
+// Retorna o cosseno de um número (em radianos).
+console.log(Math.cos(Math.PI)); // retorna -1
+
+// Math.tan()
+// Retorna a tangente de um número (em radianos).
+console.log(Math.tan(Math.PI / 4)); // retorna 1
+
+// Math.asin()
+// Retorna o arco seno (em radianos) de um número.
+console.log(Math.asin(1)); // retorna ~1.570796
+
+// Math.acos()
+// Retorna o arco cosseno (em radianos) de um número.
+console.log(Math.acos(-1)); // retorna ~3.141593
+
+// Math.atan()
+// Retorna o arco tangente (em radianos) de um número.
+console.log(Math.atan(1)); // retorna ~0.785398
+
+------------------------
+
+// indexOf()
+// Retorna o índice da primeira ocorrência do valor especificado em uma string.
+console.log("Hello, world!".indexOf("o")); // retorna 4
+
+// lastIndexOf()
+// Retorna o índice da última ocorrência do valor especificado em uma string.
+console.log("Hello, world!".lastIndexOf("o")); // retorna 7
+
+// includes()
+// Verifica se uma string contém uma sequência de caracteres.
+console.log("Hello, world!".includes("world")); // retorna true
+
+// startsWith()
+// Verifica se uma string começa com os caracteres especificados.
+console.log("Hello, world!".startsWith("Hello")); // retorna true
+
+// endsWith()
+// Verifica se uma string termina com os caracteres especificados.
+console.log("Hello, world!".endsWith("world!")); // retorna true
+
+// slice()
+// Extrai uma parte de uma string e retorna uma nova string.
+console.log("Hello, world!".slice(7, 12)); // retorna "world"
+
+// substring()
+// Extrai os caracteres de uma string entre dois índices especificados.
+console.log("Hello, world!".substring(7, 12)); // retorna "world"
+
+// substr() (depreciado, use slice ou substring)
+// Extrai os caracteres de uma string, começando na posição especificada e com o número especificado de caracteres.
+console.log("Hello, world!".substr(7, 5)); // retorna "world"
+
+// toUpperCase()
+// Converte uma string para letras maiúsculas.
+console.log("Hello, world!".toUpperCase()); // retorna "HELLO, WORLD!"
+
+// toLowerCase()
+// Converte uma string para letras minúsculas.
+console.log("Hello, world!".toLowerCase()); // retorna "hello, world!"
+
+// trim()
+// Remove espaços em branco do início e do fim de uma string.
+console.log("  Hello, world!  ".trim()); // retorna "Hello, world!"
+
+// replace()
+// Substitui uma parte da string por outra.
+console.log("Hello, world!".replace("world", "everyone")); // retorna "Hello, everyone!"
+
+// repeat()
+// Repete a string o número de vezes especificado.
+console.log("Hello! ".repeat(3)); // retorna "Hello! Hello! Hello!"
+
+// split()
+// Divide uma string em um array de substrings.
+console.log("Hello, world!".split(", ")); // retorna ["Hello", "world!"]
+
+// concat()
+// Concatena duas ou mais strings.
+console.log("Hello".concat(", ", "world!")); // retorna "Hello, world!"
+
